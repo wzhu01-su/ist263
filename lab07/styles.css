@@ -1,3 +1,8 @@
+body {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {font-size: 3em;}
+h2 {font-size: 1.5em;}
+.evenrow {background-color:antiquewhite;}
+
 h1 {color:#720000;}
 h2 {color:#5c6533;}
 body{
