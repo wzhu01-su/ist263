@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        nav {
+            display:flex;
+            background-color: #000000;
+            padding: 10px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        div {
+            padding: 5px;
+        }
+        .nav1 {justify-content: flex-end;}
+        .nav2 {justify-content: space-around;}
+        .nav3 {justify-content: space-between;}
+        .split {justify-content: space-between;}
+        .split div {display:flex;}
+    </style>
+</head>
+<body>
+    <h1>Navigation Styles</h1>
+    <h2>Flex End</h2>
+    <nav class="nav1"> <!-- flex row-->
+        <div>Home</div> <!-- first flex column-->
+        <div>About Us</div>
+        <div>Product</div>
+        <div>Contact</div>
+    </nav>
+
+    <h2>Space Around</h2>
+    <nav class="nav2">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Product</div>
+        <div>Contact</div>
+    </nav>
+
+    <h2>Space Between</h2>
+    <nav class="nav3">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Product</div>
+        <div>Contact</div>
+    </nav>
+
+    <h2>Split Naviagtion</h2>
+    <nav class="split">
+        <div>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Product</div>
+            <div>Contact</div>
+        </div>
+        <div>
+            <div>Facebook</div>
+            <div>Twitter</div>
+        </div>  
+    </nav>
+</body>
+</html>
