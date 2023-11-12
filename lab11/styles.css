@@ -20,7 +20,7 @@ nav {
 nav a{color:#FFE4E2}
 nav a:hover {
     color: #FFF4F4;
-    background-color: #A2AB6F;
+    background-color: #000000;
 }
 .motto {float: right;}
 .copyright{float:left;}
