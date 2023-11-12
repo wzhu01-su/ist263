@@ -13,14 +13,14 @@ p,li,footer {color:#720000;}
 a{color:#6D773E;}
 a:hover {color:#A2AB6F;} 
 nav {
-    background-color: #991a1a;
+    background-color: #FFFFFF;
     padding: 1em;
     margin-bottom: 3em;
 }
-nav a{color:#FFFFFF}
+nav a{color:#000000}
 nav a:hover {
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #720000;
 }
 .motto {float: right;}
 .copyright{float:left;}
@@ -56,7 +56,7 @@ nav a:hover {
 .headskill {text-align: center;}
 .coreskill {display: flex; flex:3; justify-content: space-around; margin-left: 2em;margin-top: 5em;}
 .otherskill {background-color: #A2AB6F; border-radius: 20px; flex:1; margin: 2em; padding: 2em;}
-.otherskill p {color: #6D773E;}
+.otherskill p {color: #720000;}
 .flexskill {display:flex;}
 .intro {width: 70%; align-self: center;margin-left: 2em;}
 
