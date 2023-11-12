@@ -10,14 +10,12 @@ body{
     color:#A75D5D;
     }
 p,li,footer {color:#720000;}
-a{color:#6D773E;}
-a:hover {color:#A2AB6F;} 
 nav {
-    background-color: #FFFFFF;
+    background-color: #A2AB6F;
     padding: 1em;
     margin-bottom: 3em;
 }
-nav a{color:#000000}
+nav a{color:#1f2211}
 nav a:hover {
     color: #FFFFFF;
     background-color: #720000;
@@ -38,7 +36,10 @@ nav a:hover {
 .map {flex: 1.5;}
 .links {
     flex:6;
-    margin-top:5em;}
+    margin-top:5em;
+    }
+.contact-email,.linkedin-link {color:#6D773E;}
+.contact-email:hover,.linkedin-link:hover {color:#A2AB6F;}
 .contact-email {margin-bottom:1em;}
 .survey p {
     margin-bottom: 0; 
