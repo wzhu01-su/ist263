@@ -1,0 +1,85 @@
+body {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {font-size: 3em;}
+h2 {font-size: 1.5em;}
+.evenrow {background-color:antiquewhite;}
+
+h1 {color:#720000;}
+h2 {color:#5c6533;}
+body{
+    background-color:#FBF7EE;
+    color:#A75D5D;
+    }
+p{color:#A75D5D;}
+a{color:#6D773E;}
+a:hover {color:#A2AB6F;} 
+nav {
+    background-color: #7d1515;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+nav a{color:#FFE4E2}
+nav a:hover {
+    color: #FFF4F4;
+    background-color: #A2AB6F;
+}
+.motto {float: right;}
+.copyright{float:left;}
+
+.contact1, .contact2 {
+    display: flex;
+    background-color: #fcfbf7; 
+    border-radius: 1em;
+    margin: 2em;
+    }
+.contact1{margin-bottom: 5em;}
+.address, .links {padding: 2em;}
+.survey, .map {padding: 4em;}
+.address, .survey {flex: 1;}
+.map {flex: 1.5;}
+.links {
+    flex:6;
+    margin-top:5em;}
+.contact-email {margin-bottom:1em;}
+.survey p {
+    margin-bottom: 0; 
+    font-weight: bold;}
+.survey input[type="text"], textarea {
+    width:100%;
+    padding: 1em;
+    margin-bottom:2em;
+    border:1px solid #ccc;
+    border-radius: 1em;
+}
+.survey input[type="radio"][id="mobiletext"] {margin-bottom:2em;}
+.survey label[for="name"], .survey label[for="message"] {font-weight: bold;}
+
+.headskill {text-align: center;}
+.coreskill {display: flex; flex:3; justify-content: space-around; margin-left: 2em;margin-top: 5em;}
+.otherskill {background-color: #A2AB6F; border-radius: 20px; flex:1; margin: 2em; padding: 2em;}
+.otherskill p {color: #fcfbf7;}
+.flexskill {display:flex;}
+.intro {width: 70%; align-self: center;margin-left: 2em;}
+
+.self {max-width: 100%;}
+.contact2 {flex-wrap: wrap;}
+@media only screen and (max-width:800px) {
+    nav a {
+        display: block;
+        margin-bottom:1em;
+        margin-top:1em;
+    }
+    nav span {display: none;}
+}
+
+.skip {
+    background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position:absolute; 
+    top: 10px;
+    left: -999px;
+}
+.skip:focus {
+    left: 10px;
+}
