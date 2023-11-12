@@ -9,7 +9,7 @@ body{
     background-color:#FBF7EE;
     color:#A75D5D;
     }
-p{color:#720000;}
+p,li,footer {color:#720000;}
 a{color:#6D773E;}
 a:hover {color:#A2AB6F;} 
 nav {
@@ -17,9 +17,9 @@ nav {
     padding: 1em;
     margin-bottom: 3em;
 }
-nav a{color:#FFE4E2}
+nav a{color:#FFFFFF}
 nav a:hover {
-    color: #FFF4F4;
+    color: #FFFFFF;
     background-color: #000000;
 }
 .motto {float: right;}
