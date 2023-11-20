@@ -45,13 +45,13 @@
         color: #720000;
       }
       
-      #box1,
-      #box2,
-      #box3,
-      #box4,
-      #box5,
-      #box6,
-      #box7 {
+      #mei,
+      #cheng,
+      #ma,
+      #chang,
+      #yan,
+      #yuan,
+      #loong {
         display: flex;
         justify-content: space-between;
       }
@@ -85,26 +85,12 @@
         margin-bottom: 2em;
         box-sizing: border-box;
       }
-      #box1,
-      #box2,
-      #box3,
-      #box4,
-      #box5,
-      #box6,
-      #box7
-       div{
+      #mei div{
           width: 50%;
           height: 350px;
           font-size: 10px;
       }
-      #video1,
-      #video2,
-      #video3,
-      #video4,
-      #video5,
-      #video6,
-      #video7
-      {
+      #video{
           width: 100%;
           height: 350px;
       }
@@ -149,13 +135,13 @@
         color: #720000;
       }
       
-      #box1,
-      #box2,
-      #box3,
-      #box4,
-      #box5,
-      #box6,
-      #box7 {
+      #mei,
+      #cheng,
+      #ma,
+      #chang,
+      #yan,
+      #yuan,
+      #loong {
         display: flex;
         justify-content: space-between;
       }
@@ -186,23 +172,11 @@
         margin-bottom: 2em;
         box-sizing: border-box;
       }
-      #box1,
-      #box2,
-      #box3,
-      #box4,
-      #box5,
-      #box6,
-      #box7 div{
+      #mei div{
           width: 50%;
           height: 500px;
       }
-      #video1,
-      #video2,
-      #video3,
-      #video4,
-      #video5,
-      #video6,
-      #video7{
+      #video{
           width: 100%;
           height: 500px;
       }
