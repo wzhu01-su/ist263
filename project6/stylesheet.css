@@ -45,13 +45,13 @@
         color: #720000;
       }
       
-      #mei,
-      #cheng,
-      #ma,
-      #chang,
-      #yan,
-      #yuan,
-      #loong {
+      #box1,
+      #box2,
+      #box3,
+      #box4,
+      #box5,
+      #box6,
+      #box7 {
         display: flex;
         justify-content: space-between;
       }
@@ -85,12 +85,26 @@
         margin-bottom: 2em;
         box-sizing: border-box;
       }
-      #mei div{
+      #box1,
+      #box2,
+      #box3,
+      #box4,
+      #box5,
+      #box6,
+      #box7
+       div{
           width: 50%;
           height: 350px;
           font-size: 10px;
       }
-      #video{
+      #video1,
+      #video2,
+      #video3,
+      #video4,
+      #video5,
+      #video6,
+      #video7
+      {
           width: 100%;
           height: 350px;
       }
@@ -104,8 +118,6 @@
       }
       iframe {
         justify-content: center;
-      }
-      form {color: #ffffff;
       }
 
 }
@@ -137,13 +149,13 @@
         color: #720000;
       }
       
-      #mei,
-      #cheng,
-      #ma,
-      #chang,
-      #yan,
-      #yuan,
-      #loong {
+      #box1,
+      #box2,
+      #box3,
+      #box4,
+      #box5,
+      #box6,
+      #box7 {
         display: flex;
         justify-content: space-between;
       }
@@ -174,11 +186,23 @@
         margin-bottom: 2em;
         box-sizing: border-box;
       }
-      #mei div{
+      #box1,
+      #box2,
+      #box3,
+      #box4,
+      #box5,
+      #box6,
+      #box7 div{
           width: 50%;
           height: 500px;
       }
-      #video{
+      #video1,
+      #video2,
+      #video3,
+      #video4,
+      #video5,
+      #video6,
+      #video7{
           width: 100%;
           height: 500px;
       }
@@ -187,9 +211,6 @@
       }
       iframe {
         justify-content: center;
-      }
-      form {
-        color: #ffffff;
       }
 
 }
