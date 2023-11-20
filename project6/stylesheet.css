@@ -1,44 +1,190 @@
-nav li {display: inline;}
-nav {background-color: #720000;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    width: auto 0;
-}
-nav li a{color:#FFFFFF;
-    text-decoration: none;
-}
 
-h1 {background-color: #000000;
-color:#ffffff;
-text-align: center;
-height: 2em;}
 
-a {text-decoration: none;
-color: #720000;}
+@media only screen and (max-width:600px) {
+    nav li {
+        display: inline;
+      }
+      nav {
+        background-color: #720000;
+        /* padding: 1em; */
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .meau  {
+       display: flex;
+       font-size: 10px;
+       justify-content: space-between;
+      }
+      .meau li {
+        margin-right: 10px;
+      }
+      nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        /* font-size: 12px; */
+      }
+      
+      h1 {
+        height: 200px;
+        background-color: #292929;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        justify-content: center;
+        
+        /* height: 2em; */
+      }
+      
+      a {
+        text-decoration: none;
+        color: #720000;
+      }
+      
+      #mei,
+      #cheng,
+      #ma,
+      #chang,
+      #yan,
+      #yuan,
+      #loong {
+        display: flex;
+        justify-content: space-between;
+      }
+      footer {
+        width: 100%;
+        display: flex;
+        height: 150px;
+        font-size: 10px;
+        justify-content: space-evenly;
+        background-color: #720000;
+      }
+      footer a,
+      h2 {
+        color: #ffffff;
+      }
+      
+      .navbot li {
+        display: block;
+      }
+      
+      #text1,
+      #text2,
+      #text3,
+      #text4,
+      #text5,
+      #text6,
+      #text7 {
+        background-color: #720000;
+        color: #ffffff;
+        padding: 1em;
+        margin-bottom: 2em;
+        box-sizing: border-box;
+      }
+      #mei div{
+          width: 50%;
+          height: 350px;
+          font-size: 10px;
+      }
+      #video{
+          width: 100%;
+          height: 350px;
+      }
+      footer div:nth-child(1) img{
+        width: 20px;
+        height: 20px;
+      }
+      section {
+        padding: 1em;
+        box-sizing: border-box;
+      }
+      iframe {
+        justify-content: center;
+      }
 
-#mei, #cheng, #ma, #chang, #yan, #yuan, #loong {display: flex;}
-footer {display: flex;
-    justify-content: space-evenly;
-    background-color: #720000;
 }
-footer a, h2{color: #FFFFFF;}
+@media only screen and (min-width: 601px){
+    nav li {
+        display: inline;
+      }
+      nav {
+        background-color: #720000;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      nav li a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      
+      h1 {
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        height: 2em;
+      }
+      
+      a {
+        text-decoration: none;
+        color: #720000;
+      }
+      
+      #mei,
+      #cheng,
+      #ma,
+      #chang,
+      #yan,
+      #yuan,
+      #loong {
+        display: flex;
+        justify-content: space-between;
+      }
+      footer {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #720000;
+      }
+      footer a,
+      h2 {
+        color: #ffffff;
+      }
+      
+      .navbot li {
+        display: block;
+      }
+      
+      #text1,
+      #text2,
+      #text3,
+      #text4,
+      #text5,
+      #text6,
+      #text7 {
+        background-color: #720000;
+        color: #ffffff;
+        padding: 1em;
+        margin-bottom: 2em;
+        box-sizing: border-box;
+      }
+      #mei div{
+          width: 50%;
+          height: 500px;
+      }
+      #video{
+          width: 100%;
+          height: 500px;
+      }
+      section {
+        padding: 3em;
+      }
+      iframe {
+        justify-content: center;
+      }
 
-.navbot li {display: block;}
-
-#text1, #text2, #text3, #text4, #text5, #text6, #text7 {
-    background-color: #720000;
-    color:#FFFFFF;
-    padding:1em;
-    margin-bottom: 2em;
-}
-section {
-    padding: 3em;
-}
-iframe{
-    justify-content: center;
-}
-
-@media only screen and (max-width:800px) {
-    
 }
