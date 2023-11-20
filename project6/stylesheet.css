@@ -1,0 +1,44 @@
+nav li {display: inline;}
+nav {background-color: #720000;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: auto 0;
+}
+nav li a{color:#FFFFFF;
+    text-decoration: none;
+}
+
+h1 {background-color: #000000;
+color:#ffffff;
+text-align: center;
+height: 2em;}
+
+a {text-decoration: none;
+color: #720000;}
+
+#mei, #cheng, #ma, #chang, #yan, #yuan, #loong {display: flex;}
+footer {display: flex;
+    justify-content: space-evenly;
+    background-color: #720000;
+}
+footer a, h2{color: #FFFFFF;}
+
+.navbot li {display: block;}
+
+#text1, #text2, #text3, #text4, #text5, #text6, #text7 {
+    background-color: #720000;
+    color:#FFFFFF;
+    padding:1em;
+    margin-bottom: 2em;
+}
+section {
+    padding: 3em;
+}
+iframe{
+    justify-content: center;
+}
+
+@media only screen and (max-width:800px) {
+    
+}
