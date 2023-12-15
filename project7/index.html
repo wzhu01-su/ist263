@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+  <nav>
+    <img src="../images-p/sitelogo.png" alt="site logo">
+    <div id="menu" onclick="block()">
+      <img src="../images-p/logo.png" alt="">
+    </div>
+    <div id="boxbox">
+      <ul class="meau">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="guidebook.html">Beginner's Guidebook</a></li>
+        <li><a href="performers.html">Famous Performers</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="banner">
+      <div class="bottom-left">
+        Welcome to the enchanting realm of Chinese Opera. Have you ever heard about Chinese Opera or seen a
+        Chinese Opera performance? This is a place where history, art, and culture intertwine to tell tales
+        as old as time. From the intricate dance movements to the hauntingly beautiful melodies, every
+        aspect of Chinese Opera is a testament to China's rich cultural heritage.
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1>WHAT IS CHINESE OPERA?</h1>
+    <p>Chinese Opera is a performing art with a long history. Its prototype can be traced back to the Three Kingdoms
+      period, roughly 2000 years ago. It was truly standardized by Emperor Li Longji during the Tang Dynasty.
+      Different regions in China have their own unique types of opera, each reflecting their local
+      characteristics.</p>
+    <p>The opera of northern and southern China has distinctly different features. Northern operas are primarily
+      "multi-act", typically dividing an entire performance into four stages. In contrast, southern operas use a
+      single main rhythm throughout the performance, making it more lyrical and fluid. </p>
+    <h1>5 MAIN TYPES OF CHINESE OPERA AND DISTRIBUTION</h1>
+    <div class="row">
+      <div class="rowitem">
+        <img src="../images-p/Peking-Opera-1.jpg" alt="Peking Opera">
+        <div class="bg">
+          <p>Beijing Opera</p>
+          <a href="guidebook.html#beijing">Explore</a>
+        </div>
+
+      </div>
+      <div class="rowitem">
+        <img src="../images-p/Henan-Opera.jpg" alt="Henan Opera">
+        <div class="bg">
+          <p>Henan Opera</p>
+          <a href="guidebook.html#henan">Explore</a>
+        </div>
+      </div>
+      <div class="rowitem">
+        <img src="../images-p/Huangmei-Opera-1.jpg" alt="Huangmei Opera">
+        <div class="bg">
+          <p>Huangmei Opera</p>
+          <a href="guidebook.html#huangmei">Explore</a>
+        </div>
+      </div>
+      <div class="rowitem">
+        <img src="../images-p/Yue-Opera-1.jpg" alt="Yue Opera">
+        <div class="bg">
+          <p>Yue Opera</p>
+          <a href="guidebook.html#yue">Explore</a>
+        </div>
+      </div>
+      <div class="rowitem">
+        <img src="../images-p/Cantonese-Opera-1.jpg" alt="Cantonese Opera">
+        <div class="bg">
+          <p>Cantonese Opera</p>
+          <a href="guidebook.html#cantonese">Explore</a>
+        </div>
+      </div>
+    </div>
+    <h1>FAMOUSE CHINESE OPERA PERFORMAERS</h1>
+    <div class="ten">
+      <div class="tenitem">
+        <img src="../images-p/Meilanfang.jpg" alt="Meilanfang">
+
+        <div>
+          <h2>Mei Lanfang</h2>
+          <p>Mei Lanfang, born in 1894, was known for his female roles and was dubbed the "Queen of Peking Opera."
+            He began his training at 8 and debuted at 11. He influenced Western artists like Charlie Chaplin and
+            Bertold Brecht.<a href="performers.html#meilanfang">more</a></p>
+        </div>
+      </div>
+      <div class="tenitem">
+        <img src="../images-p/chengyanqiu.jpg" alt="Chengyanqiu">
+
+        <div>
+          <h2>Cheng Yanqiu</h2>
+          <p>Ma Lianliang was specializing in the Lao Sheng or old male characters. Starting his training at eight
+            and performing by 10, he eventually led his own opera troupe. Drawing from the Tan School's
+            techniques and incorporating other masters' elements, he founded the Ma School, which gained
+            prominence from the 1920s to the 1960s.<a href="performers.html#chengyanqiu">more</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="firts">
+      <img src="../images-p/sitelogo.png" alt="site logo">
+      <hr>
+      <a href="mailto:wzhu01@syr.edu" class="contact-email">Wanting Zhu Email</a>
+      <br>
+      <img src="../images-p/ins.png" alt="ins icon">
+      <img src="../images-p/facebook.png" alt="facebook icon">
+      <img src="../images-p/twitter.png" alt="twitter icon">
+    </div>
+    <div class="teb">
+      <a href="index.html">Home</a>
+      <a href="guidebook.html">Beginner's Guidebook</a>
+      <a href="performers.html">Famous Performers</a>
+      <hr>
+    </div>
+    <div>
+      <h2>Rate Your Favorite Opera</h2>
+      <form action="https://formspree.io/f/xbjvzzlb" method="post">
+        <div>
+          <label for="email">email:</label>
+          <input type="text" class="email" name="Email">
+        </div>
+        <div class="form2">
+          <label for="favorite">select type：</label><br>
+          <select class="favorite" name="favorite">
+            <option value="Beijing Opera">Beijing Opera</option>
+            <option value="Henan Opera">Henan Opera</option>
+            <option value="Huangmei Opera">Huangmei Opera</option>
+            <option value="Yue Opera">Yue Opera</option>
+            <option value="Cantonese Opera">Cantonese Opera</option>
+          </select>
+        </div>
+        <input type="submit" value="submit" class="submit">
+      </form>
+    </div>
+  </footer>
+</body>
+<script>
+  let flage = false
+  let meau = document.getElementById('boxbox')
+
+  function block() {
+    flage = !flage
+    if (flage) {
+      meau.style.display = 'block'
+    } else {
+      meau.style.display = 'none'
+    }
+  }
+</script>
+
+</html>

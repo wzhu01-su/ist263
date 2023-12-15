@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 14 paticipation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Kameron:wght@500&display=swap" rel="stylesheet">
+    <style>
+        h1 {font-family: 'Kalam', cursive;}
+        #modal-close{
+            text-align:right;
+            margin: 0px;
+        }
+        #modal {
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            width: 300px;
+            padding: 5px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            margin: -100px -100px;
+            display:none;
+        }
+    </style>
+    <script>
+        function openModal (){
+            document.getElementById("modal").style.display = "block";
+        }
+        function closeModal (){
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <p><a onclick="openModal();">Subscribe to Our Nesletter</a></p>
+    <div id="modal">
+    <p id="modal-close" onclick="closeModal();">X</p>
+    <h1>Join Subscription List</h1>
+    </div>
+</body>
+</html>
