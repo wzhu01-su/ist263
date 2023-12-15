@@ -10,7 +10,19 @@
   minimum-scale=1.0">
   <title>Famous Chinese Opera Performers</title>
   <link rel="stylesheet" href="../css/performers.css">
-
+  <script>
+    let flage = false
+    let meau = document.getElementById('boxbox')
+  
+    function block() {
+      flage = !flage
+      if (flage) {
+        meau.style.display = 'block'
+      } else {
+        meau.style.display = 'none'
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -334,11 +346,11 @@
       <form action="https://formspree.io/f/xbjvzzlb" method="post">
        <div>
         <label for="email">email:</label>
-        <input type="text" class="email" name="Email">
-       </div>
+        <input type="text" class="email" id="email" name="Email">
+      </div>
         <div>
           <label for="favorite">select type：</label><br>
-          <select class="favorite" name="favorite">
+          <select class="favorite" id="favorite" name="favorite">
             <option value="Beijing Opera">Beijing Opera</option>
             <option value="Henan Opera">Henan Opera</option>
             <option value="Huangmei Opera">Huangmei Opera</option>
@@ -351,18 +363,5 @@
     </div>
   </footer>
 </body>
-<script>
-  let flage = false
-  let meau = document.getElementById('boxbox')
-
-  function block() {
-    flage = !flage
-    if (flage) {
-      meau.style.display = 'block'
-    } else {
-      meau.style.display = 'none'
-    }
-  }
-</script>
 
 </html>
