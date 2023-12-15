@@ -6,63 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beginner's Guidebook</title>
   <link rel="stylesheet" href="../css/guidebook.css">
-  <script>
-    // hide / show
-    let flage = false
-    let meau = document.getElementById('boxbox')
-
-    function block() {
-      flage = !flage
-      if (flage) {
-        meau.style.display = 'block'
-      } else {
-        meau.style.display = 'none'
-      }
-    }
-
-  //  scroll
-    function fun1() {
-      var a_href = location.href.split('?a=')[1]
-      if (Boolean(a_href)) {
-        document.getElementById('to1').click
-      } else {
-        return false
-      }
-    }
-    function fun2() {
-      var a_href = location.href.split('?a=')[1]
-      if (Boolean(a_href)) {
-        document.getElementById('to2').click
-      } else {
-        return false
-      }
-    }
-    function fun3() {
-      var a_href = location.href.split('?a=')[1]
-      if (Boolean(a_href)) {
-        document.getElementById('to3').click
-      } else {
-        return false
-      }
-    }
-    function fun4() {
-      var a_href = location.href.split('?a=')[1]
-      if (Boolean(a_href)) {
-        document.getElementById('to4').click
-      } else {
-        return false
-      }
-    }
-    function fun5() {
-      var a_href = location.href.split('?a=')[1]
-      if (Boolean(a_href)) {
-        document.getElementById('to5').click
-      } else {
-        return false
-      }
-    }
-
-  </script>
 </head>
 
 <body>
@@ -92,7 +35,7 @@
     </div>
     <div class="right">
       <p><a href="index.html">Home</a> > <a href="guidebook.html">Beginner's Guidebook</a></p>
-      <a class="beijing"></a>
+      <a name="beijing"></a>
       <div id="beijing">
         <div>
           <img src="../images-p/Peking-opera-3.jpg" alt="peking opera">
@@ -139,7 +82,7 @@
           <p><a href="http://theatrebeijing.com/whats_on/chinese_opera/">Beijing - Liyuan Theater</a></p>
         </div>
       </div>
-      <a class="henan"></a>
+      <a name="henan"></a>
       <div id="henan">
         <div>
           <h1>Henan Opera (Yuju Opera)</h1>
@@ -181,7 +124,7 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-      <a class="huangmei"></a>
+      <a name="huangmei"></a>
       <div id="huangmei">
         <div>
           <img src="../images-p/Huangmei-Opera.jpg" alt="huangmei opera">
@@ -221,7 +164,7 @@
               Anhui - Anhui Huangmei Opera Theatrer</a></p>
         </div>
       </div>
-      <a class="yue"></a>
+      <a name="yue"></a>
       <div id="yue">
         <div>
           <h1>Yue Opera</h1>
@@ -270,7 +213,7 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-      <a class="cantonese"></a>
+      <a name="cantonese"></a>
       <div id="cantonese">
         <div>
           <img src="../images-p/Cantonese-Opera.jpg" alt="cantonese opera">
@@ -340,7 +283,7 @@
     </div>
     <div id="ios_right">
       <p><a href="index.html">Home</a> > <a href="guidebook.html">Beginner's Guidebook</a></p>
-      <a class="beijing1"></a>
+      <a name="beijing1"></a>
       <div id="beijing">
         <div>
           <img src="../images-p/Peking-opera-3.jpg" alt="peking opera">
@@ -389,7 +332,7 @@
           <p><a href="http://theatrebeijing.com/whats_on/chinese_opera/">Beijing - Liyuan Theater</a></p>
         </div>
       </div>
-      <a class="henan1"></a>
+      <a name="henan1"></a>
       <div id="henan">
         <div>
           <h1>Henan Opera (Yuju Opera)</h1>
@@ -434,7 +377,7 @@
 
         </div>
       </div>
-      <a class="huangmei1"></a>
+      <a name="huangmei1"></a>
       <div id="huangmei">
         <div>
           <img src="../images-p/Huangmei-Opera.jpg" alt="huangmei opera">
@@ -476,7 +419,7 @@
               Anhui - Anhui Huangmei Opera Theatrer</a></p>
         </div>
       </div>
-      <a class="yue1"></a>
+      <a name="yue1"></a>
       <div id="yue">
         <div>
           <h1>Yue Opera</h1>
@@ -527,7 +470,7 @@
 
         </div>
       </div>
-      <a class="cantonese1"></a>
+      <a name="cantonese1"></a>
       <div id="cantonese">
         <div>
           <img src="../images-p/Cantonese-Opera.jpg" alt="cantonese opera">
@@ -620,11 +563,11 @@
       <form action="https://formspree.io/f/xbjvzzlb" method="post">
         <div>
           <label for="email">email:</label>
-          <input type="text" class="email" id="email" name="Email">
+          <input type="text" class="email" name="Email">
         </div>
         <div class="input">
           <label for="favorite">select type：</label><br>
-          <select class="favorite" id="favorite" name="favorite">
+          <select class="favorite" name="favorite">
             <option value="Beijing Opera">Beijing Opera</option>
             <option value="Henan Opera">Henan Opera</option>
             <option value="Huangmei Opera">Huangmei Opera</option>
@@ -636,6 +579,63 @@
       </form>
     </div>
   </footer>
+  <script>
+    // hide / show
+    let flage = false
+    let meau = document.getElementById('boxbox')
+
+    function block() {
+      flage = !flage
+      if (flage) {
+        meau.style.display = 'block'
+      } else {
+        meau.style.display = 'none'
+      }
+    }
+
+  //  scroll
+    function fun1() {
+      var a_href = location.href.split('?a=')[1]
+      if (Boolean(a_href)) {
+        document.getElementById('to1').click
+      } else {
+        return false
+      }
+    }
+    function fun2() {
+      var a_href = location.href.split('?a=')[1]
+      if (Boolean(a_href)) {
+        document.getElementById('to2').click
+      } else {
+        return false
+      }
+    }
+    function fun3() {
+      var a_href = location.href.split('?a=')[1]
+      if (Boolean(a_href)) {
+        document.getElementById('to3').click
+      } else {
+        return false
+      }
+    }
+    function fun4() {
+      var a_href = location.href.split('?a=')[1]
+      if (Boolean(a_href)) {
+        document.getElementById('to4').click
+      } else {
+        return false
+      }
+    }
+    function fun5() {
+      var a_href = location.href.split('?a=')[1]
+      if (Boolean(a_href)) {
+        document.getElementById('to5').click
+      } else {
+        return false
+      }
+    }
+
+  </script>
 </body>
 
 
